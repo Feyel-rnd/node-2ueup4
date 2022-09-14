@@ -58,6 +58,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
    ],
    providers: [
       MatDatepickerModule,
-   ]
+   ],
+   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AngularMaterialModule { }
